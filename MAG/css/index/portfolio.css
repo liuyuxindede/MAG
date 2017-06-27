@@ -1,0 +1,90 @@
+.centent-top{
+    text-align:center;
+    margin-top:101px;
+    margin-bottom:54px;
+}
+@font-face {
+ font-family:'NavisBold';
+  src:url('nevis.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+.centent-mid-top{
+    font-size:13px;
+    font-weight:bold;
+    font-family: NavisBold;
+    padding:16px 0;
+    padding-left:25px;
+    background:url(../../images/cc.png);}
+.qqq{
+    width:100px;
+    height:100px;
+    background: red;
+}
+.centent-mid{
+    border:1px solid #c8c8c8;
+    border-top:none;
+}
+.centent-mid-k{
+    width:1105px;
+    padding:26px 0;
+    margin-left:20px;
+    border-bottom:1px solid #c8c8c8;
+    line-height:30px
+}
+
+.centent-mid-k>img{width:250px;
+    height:195px;float:left;}
+.centent-mid-k-p{float:left;
+    margin-left:26px;
+    width:540px;
+}
+.centent-mid-k-p>h5{
+    font-size:30px;
+        font-family: NavisBold;
+        color:#393939;
+
+}
+.centent-mid-k-p>p{
+    font-size:14px;
+        font-family: NavisBold;
+    color:#393939;
+}
+.centent-mid-k-p>p>span{
+    color:#b31010;
+}
+.centent-mid-k-p>a{
+    text-decoration:underline;
+    color:#393939;
+}
+.centent-mid-r>p>a{
+    text-decoration:underline;
+    font-weight:bold;
+    font-size:12px;
+        font-family: NavisBold;
+    color:#393939;
+}
+.centent-mid-r{
+    float:left;
+    margin-left:35px;
+    width:243px;
+    line-height:40px;
+    padding:35px 0;
+}
+.centent-mid-btn{
+    margin:26px 0;
+}
+.centent-mid-btn>button{
+    padding:10px;
+    background:#fff;
+    border:1px solid #c8c8c8;
+}
+.centent-bottom{
+    margin-bottom:70px;
+}
+.centent-bottom-img{
+    margin:22px 0;
+    width:904px;
+    height:110px;
+    overflow: hidden;
+}

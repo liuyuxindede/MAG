@@ -1,0 +1,275 @@
+
+
+
+@media (min-width:640px){body{font-size:1rem;}}
+@media (min-width:960px){body{font-size:1.2rem;}}
+@media (min-width:1200px){body{font-size:1.4rem;}}
+
+@font-face {
+ font-family:'NavisBold';
+  src:url('nevis.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+ font-family:'logo';
+  src:url('GeosansLight.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+
+body,ul,p,a{
+    list-style:none;
+    padding:0;
+    margin:0;
+    text-decoration:none;
+}
+
+html{
+    font-size:10px;
+}
+body{
+    font-size:1.2rem;
+}
+p{cursor:pointer;}
+p:hover{color:#0ba6b8;
+    opacity:0.6;}
+a{
+    color:#292929;
+}
+a:hover{
+    color:orange;
+}
+.clear:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.con{
+     width:85.7%;
+    margin:0 auto;
+}
+.center{
+    width:85.7%;
+    margin:0 auto;
+}
+.center:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+img:hover{
+    opacity:0.6;
+    cursor:pointer;
+}
+/*.top li:hover{
+       background:#0ba6b8;
+    color:white;
+    position:relative;
+}
+.bn-right li:nth-child(1):before
+}*/
+.top-left a{
+color:#9f9f9f;
+}
+/*.top-left a:hover{
+color:white;
+}*/
+.top{
+    width:100%;
+    height:35px;
+    font-family:Arial;
+font-size:1.4rem;
+font-weight: bold;
+letter-spacing: -1px;
+line-height:35px;
+background:#020202;
+color:#9f9f9f;
+}
+.top-2k>ul>li{
+    float:left;
+    padding:0 2rem;
+}
+.top-left{
+    float:left;
+}
+.top-right{
+    float:right;
+}
+.top-right li:nth-child(1){
+float:left;
+}
+.top-button{
+    float:left;
+    background:#0ba6b8;
+    color:white;
+    padding:0 2rem;
+    line-height: 35px;
+    outline: none;
+    border:none;
+/*    margin: 0 10px;*/
+}
+.top span{
+    display:inline-block;
+}
+.top input{
+    float:right;
+border-radius:2px;
+outline: none;
+width:140px;
+line-height: 18px;
+margin: 5px 23px 0 0px;
+background:#282828;
+border:1px solid #272727;
+}
+
+.navHover{
+        background:#0ba6b8;
+    color:white;
+    position:relative;
+}
+.navHover a{
+    color:white;
+}
+.navHover:after{
+        content:"";
+    color:white;
+    width:0;
+    height:0;
+    position:absolute;
+    top:34px;
+    left:50%;
+    margin-left:-8px;
+    border-width:8px;
+    border-style:solid;
+    border-color:#0ba6b8 transparent transparent transparent;
+}
+.logo{
+font:46px/46px  logo ;
+color:#292929;
+text-align: center;
+padding:33px 0 30px 0;
+text-shadow:8px 8px 18px #999
+}
+.bottom{
+    background:#000;
+    padding:2rem 0;
+}
+.bottom>ul>li{
+    float:left;
+    width:362px;
+    font-size: 17px;
+    color:#e2e2e2;
+}
+.bottom>ul>li:nth-child(2){
+    margin: 0 24px;
+}
+.bom-f1{
+border-bottom: 1px dotted #e2e2e2;
+font:bold 1.7rem/6rem Arial;
+text-shadow: 0px 0px 1px #FF0000;
+}
+.bom-f2 li:nth-child(1){
+    font:bold 1.7rem/1.7rem Arial;
+text-shadow: 0px 0px 1px #FF0000;
+padding:25px 0 15px 0;
+}
+.bom-f2 li:nth-child(2){
+    font:bold 1.5rem/1.5rem Arial;
+}
+.bom-f2 li:nth-child(3){
+    letter-spacing: -1px;
+    padding:18px 0 25px 0;
+}
+.bom-f3{
+border-bottom: 1px dotted #e2e2e2;
+}
+.bom-f5 li:nth-child(2){
+   font-weight: 500;
+
+}
+.bom-img{
+    margin:25px 0 0 0;
+}
+.bom-img img{
+        margin:10px 0 0 3px;
+}
+/*.logo{
+font:14px/14px  logo ;
+color:#292929;
+padding:33px 0 30px 0;
+text-shadow:8px 8px 18px #999
+}*/
+.bar{
+    padding:20px 0;
+}
+.bar span:nth-child(1){
+    font: bold 2rem/2rem logo;
+    color:#242424;
+    text-indent:2rem;
+    display:inline-block;
+}
+.bar span:nth-child(2){
+    font:1rem/1rem 微软雅黑;
+    color:#292929;
+/*    letter-spacing: -1px;*/
+        text-indent:8rem;
+    display:inline-block;
+}
+.bar span:nth-child(3){
+    font:1rem/1rem 微软雅黑;
+    color:#292929;
+        text-indent:15rem;
+    display:inline-block;
+}
+@media screen and (max-width:1080px){
+.center{
+        width:100%;
+    }
+ .child-nav{
+        clear:both;
+        display:none;
+        background:#0ba6b8;
+        color:white;
+        padding:0;
+        text-align: center;
+        width:70
+       }
+ .top-left{
+    position: absolute;
+    text-align:center;
+}
+.top-2k>ul>li:nth-child(1){
+    width:70%;
+}
+.top-left:hover .child-nav{
+    display: block;
+
+}
+.child-nav:hover{
+        background:#0ee;
+}
+
+.child-span{
+    display:none;
+}
+.top-2k>ul>li:nth-child(1):after{
+    display: none;
+}
+.bottom>ul>li:nth-child(2){
+    margin: 0;
+}
+.bottom>ul>li{
+
+    width:100%;
+    text-align: center;
+
+}
+.bar{
+    text-align: center;
+
+}
+.bar span{
+        text-indent: 0rem !important;
+}
+}

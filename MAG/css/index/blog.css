@@ -1,0 +1,109 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+    text-align:none;
+    text-decoration:none;
+    font-family:NavisBold;
+    font-size:12px;
+    color:#393939;
+}
+@font-face {
+ font-family:'NavisBold';
+  src:url('nevis.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+ font-family:'logo';
+  src:url('GeosansLight.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+.logo li:nth-child(1){
+font-size: 46px;
+line-height:46px;
+font-family: logo;
+color:#292929;
+text-align: center;
+text-shadow:8px 8px 18px #999
+}
+.clear:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.con{width:86%;margin:0 auto;}
+.top{
+    background:#040404;
+}
+.top-ul>li{float:left;text-align:center;width:90px;position:relative;}
+.top-ul>li>a{color:#9f9f9f;display:block;padding:10px 0;height:16px;}
+.top-ul{float:left;width:550px;}
+.iNow{background:#0ba6b8;}
+.iNow>a{color:#fff !important;}
+.iNow:after{
+    content:"";
+    display:block;
+    width:0;
+    border-width:10px;
+    border-style:solid;
+    border-color:#0ba6b8 transparent transparent transparent;
+    position: absolute;
+    left:35px;
+    bottom:-19px;
+}
+.top-div-in{float:left;width:90px;margin-left:20px;}
+.top-div-in>a{color:#9f9f9f;display:block;padding:10px 0;height:16px;}
+.top-div{float:right;}
+.top-div>a{display:block;width:90px;background:#0ba6b8;text-align:center;height:16px;padding:10px;color:#fff;float:right;margin-right:5px;}
+.top-div>input{float:left;margin-top:7px;margin-right:20px;background:#272727;border:1px solid #272727;}
+        /*----------------top-----------*/
+.centent-top{text-align:center;margin-top:101px;margin-bottom:54px;}
+.centent-mid-left1{width:773px;float:left;}
+.centent-mid-left{border:1px solid #c8c8c8;border-top:none;}
+.centent-mid-left-top{font-weight:bold;background:url(../../img/bg.png) repeat;font-size:14px;padding:15px;}
+.centent-mid-btn{margin:26px 0;}
+.centent-mid-btn>button{padding:10px;background:#fff;border:1px solid #c8c8c8;}
+.centent-k{width:705px;margin:0 auto;padding:20px 0;border-bottom:1px solid #c2c2c2;}
+.centent-k-img{float:left;width:250px;}
+.centent-k-p{float:right;width:409px;}
+.centent-k-p>h5{font-size:28px; line-height: 35px}
+.centent-k-p>p{color:#393939;font-size:14px;line-height:28px;}
+.centent-k-p>p>span{color:#b31010;font-size:12px;}
+.centent-k-p>a{text-decoration:underline;color:#393939;font-size:14px;font-weight:bold; margin: 10px 0 0 0; display:inline-block;}
+.centent-k-p>a:hover{
+    color:#b31010;
+}
+.centent-k:last-child{border:none;}
+.centent-mid-right{float:right;width:373px;}
+.centent-mid-right-img>img{float:left;margin:15px;}
+.centent-mid-right-top{border:1px solid #c8c8c8;border-top:none;}
+.centent-mid-right-mid-k{border:1px solid #c8c8c8;font-size:14px;font-weight:bold;background:url(../../img/bg1.png);padding:18px;color:#6e6e6e;}
+.centent-mid-right-mid{margin:42px 0;border:1px solid #c8c8c8;border-top:none;}
+.centent-mid-right-bottom-img{width:325px;height:324px;margin:20px;}
+.centent-mid-right-bottom{border:1px solid #c8c8c8;border-top:none}
+.centent-bottom{margin-bottom:70px;}
+.centent-bottom-img{margin:22px 0;width:904px;height:110px;overflow: hidden;}
+
+/*
+     /*----------------centent-----------*/
+/*footer{background:#000}
+.left{width:300px;float:left;}
+.left-top{padding:10px;border-bottom:1px  dotted #a0a0a0;font-weight:bold;color:#a0a0a0;}
+.left-mid{padding:10px;border-bottom:1px  dotted #a0a0a0;line-height:20px;}
+.left-mid-p1>a{font-weight:bold;color:#a0a0a0;}
+.left-mid-p2>a{font-weight:bold;color:#a0a0a0;}
+.left-mid-p3>a{color:#a0a0a0;}
+.left-botton{padding:10px;line-height:24px;}
+.mid{width:300px;float:left;margin-left:50px;}
+.mid-mid-p2>a{color:#a0a0a0;}
+.right{width:350px;float:right;}
+.right-img{padding-top:6px;line-height:20px}
+.bottom{padding:10px 0;}
+.ft-left-p>span{text-decoration:underline;}
+.ft-r-p>span{text-decoration:underline;}
+.ft-left>.ft-left-p{width:400px;float:left;margin-top:4px;}
+.ft-left>.ft-l-img{float:left;}
+.ft-left{float:left;}
+.ft-r-p{float:right;margin-top:4px;}*/*/

@@ -1,0 +1,26 @@
+.centent{margin-bottom:63px;}
+.centent-top{text-align:center;margin-top:101px;margin-bottom:54px;}
+.content-mid-l{width:760px;border:1px solid #c8c8c8;border-top:none;float:left;}
+.centent-mid-top{font-size:13px;font-weight:bold;padding:16px 0;padding-left:25px;background:url(../../img/bg.png); font-family:'NavisBold'; color:#393939;}
+.centent-mid-r{width:371px;margin-left:14px;float:left;border:1px solid #c8c8c8;border-top:none;}
+.centent-mid-r-top{font-size:13px;font-weight:bold;padding:16px 0;padding-left:25px;background:url(../../img/bg.png); font-family:'NavisBold'; color:#393939;}
+.centent-mid-r-k{border:1px solid #c8c8c8;font-size:14px;font-weight:bold;background:url(../../img/bg1.png);padding:18px; font-family:'NavisBold';color:#6e6e6e; color:#393939;}
+.centent-mid-p{width:675px;padding:34px 16px;border-bottom:1px solid #c8c8c8;margin:0 auto;}
+.centent-mid-p>h5{
+    font-size: 30px;
+    padding: 0;
+    line-height: 30px;
+    margin: 0 0 10px 0;
+     font-family:'NavisBold';
+     color:#393939;
+}
+.centent-mid-p>p{
+    font-size:14px;line-height:29px;color:#393939;
+     font-family:'NavisBold';
+     color:#393939;
+}
+.inp{margin-left:38px;line-height:30px}
+.inp>input{background:#dedede;border:1px solid #dedede;width:300px; line-height: 24px;}
+.inp>textarea{background:#dedede;border:1px solid #dedede;resize:none;}
+
+.inp>button{padding:11px 27px;background:#5c5c5c;color:#fff;border:1px solid #ccc;}
